@@ -1,1 +1,63 @@
 /* Your code here */
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.winDiv {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.won {
+    font-size: 5rem;
+}
+
+.grid-Div {
+    width: 500px;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.square {
+    border: 1px solid black;
+    margin: 1px;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.hit {
+    background-color: red;
+    font-size: 2rem;
+    color: white;
+}
+
+
+.miss {
+    background-color: blue;
+    font-size: 2rem;
+    color: white;
+}
+
+.count {
+    padding: 20px;
+    font-size: 1.5rem;
+}
